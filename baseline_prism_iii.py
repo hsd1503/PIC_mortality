@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
+def get_prism_iii_feats():
+     return ['age_month', 'chart_1016_min', 'chart_1003_max', 'chart_1001_max', 'chart_1001_min', 'lab_5256_max', 'lab_5237_max', 'lab_5238_max', 'lab_5239_min', 'lab_5244_min', 'lab_5235_max', 'lab_5236_max', 'lab_5223_max', 'lab_5047_max', 'lab_5226_max', 'lab_5056_max', 'lab_5041_max', 'lab_5032_max', 'lab_5033_max', 'lab_5141_min', 'lab_5186_max', 'lab_5129_min']
+
 def prism_iii(df):
     out = []
     n_row = df.shape[0]
@@ -16,7 +19,7 @@ def prism_iii_row(row):
     age_month
     sbp, chart_1016_min
     hr, chart_1003_max
-    temperature, chart_1001
+    temperature, chart_1001_max, chart_1001_min
     [not exist] pupillary reflexes, GCS
 
     tCO2, lab_5256_max

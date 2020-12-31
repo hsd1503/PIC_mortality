@@ -4,11 +4,9 @@ Predicting Risk of Mortality in Pediatric ICU based on Ensemble Step-wise Featur
 
 ## Usage
 
-`python exp.py`
-
 The reproducible results are saved in `run_exp.ipynb`. 
 
-You can also run `prepare_firsthours.py` to extract `icu_first24hours.csv` from raw csv files. 
+You can also run `prepare_firsthours.ipynb` to extract `icu_first24hours.csv` from raw csv files (save them in `raw_data/`). 
 
 ## Dataset
 

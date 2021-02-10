@@ -1,6 +1,6 @@
 # PIC Mortality
 
-Predicting Risk of Mortality in Pediatric ICU based on Ensemble Step-wise Feature Selection
+Shenda Hong, Xinlin Hou, Jin Jing, Wendong Ge, Luxia Zhang. Predicting Risk of Mortality in Pediatric ICU based on Ensemble Step-wise Feature Selection. In SPJ Health Data Science, 2021. [paper](https://spj.sciencemag.org/journals/hds/aip/9365125/)
 
 ## Usage
 
